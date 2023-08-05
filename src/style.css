@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+textarea {
+    border: 1px solid #ddd !important;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input.tax::-webkit-outer-spin-button,
+input.tax::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
