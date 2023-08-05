@@ -10,6 +10,7 @@ const data = reactive({
   date: '',
   dueDate: '',
   additionalNote: '',
+  currency: '',
   items: [{
     description: '',
     quantity: '',
@@ -98,6 +99,11 @@ function getTotal(){
                     <p>
                         <span>Additional Note</span>
                         <input v-model="data.additionalNote" class="ml-2 w-[200px]" type="text">
+                    </p>
+
+                    <p>
+                        <span>Selet Currency</span>
+                        <input v-model="data.currency" class="ml-2 w-[200px]" type="text">
                     </p>
                 </div>
             </div>
