@@ -169,7 +169,7 @@ function getTotal() {
         Add More
       </button>
 
-      <p>{{ data }}</p>
+<!--      <p>{{ data }}</p>-->
     </div>
     <div class="mt-[200px]">
       <div class="flex justify-between">
@@ -214,4 +214,7 @@ function getTotal() {
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+
+</style>
