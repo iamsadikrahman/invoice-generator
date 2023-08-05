@@ -137,7 +137,7 @@ function getTotal(){
             <button @click="addMoreItem()" class="mt-5 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                 Add More
             </button>
-            <p>{{ data }}</p>
+           
         </div>
         <div class="mt-[200px]">
             <div class="flex justify-between">
